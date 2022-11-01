@@ -36,7 +36,6 @@ export default class extends Command {
             context.fillRect(720, 30, 320, 215)
 
             context.shadowBlur = 0;
-            //context.strokeRect(500, 500, 55, 130)
 
             applytxt(context, usuario.tag, 40, "#ffffff", 255, 95, "left"); // ctx, texto, tamaño del texto, color, x pos, y pos, alineado
             applytxt(context, "descripccion del usuario", 30, "#ffffff", 255, 125, "left");
